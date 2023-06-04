@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+   color: rgb(170, 139, 109);
+   }
+
+/*lo que paso es como no tenia conetenido no tenia heigh u width es estupido*/
+body::before {
+   content: "";
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   background-image: url("/img/DnD logo.jpg");
+   background-repeat: no-repeat;
+   background-size: 75%;
+   background-position: center;
+   opacity: .2; 
+}
+
+.content{
+   text-align: center;
+   font-family: serif;
+}
+
+nav.content{
+   text-align: center;
+   font-weight: bold;
+}
+a:hover{
+   color: blue;
+}
